@@ -16,3 +16,5 @@ which causes the entire chart to jump.
 Is this a bug in Swift Charts or is there something
 I can change in the code to prevent this?
 
+<img alt="without drag" src="chart-without-drag.png" />
+<img alt="with drag" src="chart-with-drag.png" />
