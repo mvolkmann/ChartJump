@@ -3,6 +3,9 @@
 This is a simple SwiftUI app that demonstrates an issue
 with adding a `RuleMark` to a Swift Chart.
 
+All the relevant code is in the file `ContentView.swift`
+and it is fairly short.
+
 Drag over the chart to display an annotation above it
 that displays the value corresponding to the name
 your finger is over.
