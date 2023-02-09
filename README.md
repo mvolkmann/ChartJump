@@ -17,6 +17,8 @@ Is this a bug in Swift Charts or is there something
 I can change in the code to prevent this?
 
 <img alt="without drag"
-  src="https://github.com/mvolkmann/ChartJump/raw/main/chart-without-drag.png" />
+  src="https://github.com/mvolkmann/ChartJump/raw/main/chart-without-drag.png"
+  style="width: 40%" />
 <img alt="with drag"
-  src="https://github.com/mvolkmann/ChartJump/raw/main/chart-with-drag.png" />
+  src="https://github.com/mvolkmann/ChartJump/raw/main/chart-with-drag.png"
+  style="width: 40%" />
