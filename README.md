@@ -1,11 +1,5 @@
 # ChartJump
 
-style {
-  img {
-    border: 1px solid gray;
-  }
-}
-
 This is a simple SwiftUI app that demonstrates an issue
 with adding a `RuleMark` to a Swift Chart.
 
@@ -29,8 +23,8 @@ Note that in the left one the y-axis goes from 0 to 30
 and in the right one the y-axis goes from 0 to 40.
 
 <img alt="without drag"
-  src="raw/main/chart-without-drag.png"
-  style="width: 40%" />
+  src="https://github.com/mvolkmann/ChartJump/raw/main/chart-without-drag.png"
+  style="border: 1px solid gray; width: 40%" />
 <img alt="with drag"
-  src="raw/main/chart-with-drag.png"
-  style="width: 40%" />
+  src="https://github.com/mvolkmann/ChartJump/raw/main/chart-with-drag.png"
+  style="border: 1px solid gray; width: 40%" />
