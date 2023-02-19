@@ -32,7 +32,8 @@ struct ContentView: View {
 
                 if object.name == selectedName {
                     RuleMark(x: name)
-                        .annotation(position: .top) { annotation }
+                        // .annotation(position: .top) { annotation }
+                        .annotation(position: .overlay) { annotation }
                         // Display a red, dashed, vertical line.
                         .foregroundStyle(.red)
                         .lineStyle(StrokeStyle(dash: [10, 5]))

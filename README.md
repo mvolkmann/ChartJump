@@ -13,8 +13,18 @@ your finger is over.
 Note how the y-axis scale changes while dragging
 which causes the entire chart to jump.
 
-Is this a bug in Swift Charts or is there something
-I can change in the code to prevent this?
+Is this a bug in Swift Charts?
+A workaround was proposed by @MTBff at https://developer.apple.com/forums/thread/724770.
+Specifying the y-axis scale as shown below fixes the issue!
+However, this probably should not be required.
+
+```swift
+Chart {
+    ...
+}
+.chartYScale(domain: 0...50)
+```
+
 
 In the screenshots below,
 the left one shows the chart before dragging a finger over it
